@@ -25,8 +25,9 @@ public class WeatherActivity extends AppCompatActivity implements AdapterView.On
 
         mListView = (ListView) findViewById(R.id.list_view);
 
-        //  날씨 데이터를 만든다
+        //  날씨 데이터를 만든다 !!!!
         List<Weather> weatherList = new ArrayList<>();
+
 
         weatherList.add(new Weather(R.drawable.analytics11, "수원", "25도"));
         weatherList.add(new Weather(R.drawable.analytics11, "수원", "27도"));
